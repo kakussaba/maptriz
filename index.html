@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Maptriz Smart City</title>
+  <link href="assets/css/animsition.min.css" rel="stylesheet">
+  <link href="node_modules/materialize-css/dist/css/materialize.min.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <script type="application/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script type="application/javascript" src="assets/js/animsition.min.js"></script>
+  <script async="" src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/8.6.0/lazyload.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js?ver=4.0.2"></script>
+  <script type="application/javascript" src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+  <script type="application/javascript" src="assets/js/index.js"></script>
+</head>
+<body class="home page">
+  <div class="animsition">
+    <header class="site-header header-transparent" role="banner" data-state="header-transparent">
+      <h1 class="logo-h1">
+        <a href="maptriz.com.br" class="logo-container">
+          <img src="assets/imgs/logo.png" alt="Maptriz Smart City" id="logo-img" class="logo-img loading">
+        </a>
+      </h1>
+      <nav class="main-nav" role="navigation">
+        <ul>
+          <li class="menu-item"><a href="#home" class="waves-effect">Home</a></li>
+          <li class="menu-item"><a href="#solucoes" class="waves-effect">Soluções</a></li>
+          <li class="menu-item"><a href="#noticias" class="waves-effect">Notícias</a></li>
+          <li class="menu-item"><a href="#clientes" class="waves-effect">Clientes</a></li>
+          <li class="menu-item"><a href="#sobre-nos" class="waves-effect">Quem Somos</a></li>
+          <li class="menu-item"><a href="#contato" class="waves-effect">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <div class="container">
+        <div class="row">
+          <div class="col s6 m6 x6 l6 left-item">
+            <div class="horizontal-aligned">
+              <img src="assets/imgs/logo-branca.png" alt="Maptriz Smart City">
+              <p>
+                Olá, nós somos a Maptriz
+                <span>Criamos soluções <span id="tecnologia-tag" class="tags">tecnológicas inovadoras</span> para gestão <span id="ideias-tag" class="tags">inteligente e eficiente</span> de cidades <span id="sustentavel-tag" class="tags">criativas e sustentáveis</span>, com <span id="otimizacao-tag" class="tags">controle e otimização</span> dos serviços.</span>
+              </p>
+
+              <a href="#solucoes" class="btn btn-primary" id="conheca-nossas-solucoes">Conheça nossas soluções</a>
+            </div>
+          </div>
+          <div class="col s6 m6 x6 l6 right-item">
+            <div class="dashed">
+              <img src="assets/imgs/globo.png" class="globo"/>
+            </div>
+            <div class="produtos">
+              <div id="otimizacao" class="produto">
+                <div class="produto-icone">
+                  <img src="assets/imgs/settings.png" class="icone engrenagem-1"/>
+                  <img src="assets/imgs/settings.png" class="icone engrenagem-2"/>
+                  <img src="assets/imgs/settings.png" class="icone engrenagem-3"/>
+                </div>
+              </div>
+
+              <div id="ideias" class="produto">
+                <div class="produto-icone">
+                  <img src="assets/imgs/idea (1).png" class="icone ideia"/>
+                  <img src="assets/imgs/idea.png" class="icone ideia-1"/>
+                </div>
+              </div>
+
+              <div id="sustentavel" class="produto">
+                <div class="produto-icone">
+                  <img src="assets/imgs/plant.png" class="icone folha"/>
+                </div>
+              </div>
+
+              <div id="tecnologia" class="produto">
+                <div class="produto-icone">
+                  <img src="assets/imgs/wifi.png" class="icone wifi"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="solucoes">
+      <div class="container">
+        <div class="row">
+          <div class="col x12 s12 m12 l12">
+            <h3>Conheça nossas soluções</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col x12 m12 l12 s12">
+            <div class="row">
+              <div class="col x3 s13 m3 l3">
+                <div class="box-solucoes arborizacao">
+                  <img src="assets/imgs/arborizacao.png"/>
+                  <span class="title">Arborização Urbana</span>
+                  <a class="waves-effect waves-light modal-trigger" href="#arborizacao">Saiba mais</a>
+                </div>
+              </div>
+
+              <div class="col x3 s13 m3 l3">
+                <div class="box-solucoes endemias">
+                  <img src="assets/imgs/endemias.png"/>
+                  <span class="title">Gestão de Endemias</span>
+                  <a href="#">Saiba mais</a>
+                </div>
+              </div>
+
+              <div class="col x3 s13 m3 l3">
+                <div class="box-solucoes iluminacao">
+                  <img src="assets/imgs/iluminacao.png"/>
+                  <span class="title">Iluminação Urbana</span>
+                  <a href="#">Saiba mais</a>
+                </div>
+              </div>
+
+              <div class="col x3 s13 m3 l3">
+                <div class="box-solucoes pgv">
+                  <img src="assets/imgs/pgv.png"/>
+                  <span class="title">PGV</span>
+                  <a href="#">Saiba mais</a>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col x3 s13 m3 l3">
+                <div class="box-solucoes ctm">
+                  <img src="assets/imgs/ctm.png"/>
+                  <span class="title">CTM</span>
+                  <a class="waves-effect waves-light modal-trigger" href="#ctm">Saiba mais</a>
+                </div>
+              </div>
+
+              <div class="col x3 s13 m3 l3">
+                <div class="box-solucoes treinamento">
+                  <img src="assets/imgs/treinamento.png"/>
+                  <span class="title">Treinamento em TI</span>
+                  <a href="#">Saiba mais</a>
+                </div>
+              </div>
+
+              <div class="col x3 s13 m3 l3">
+                <div class="box-solucoes nacidade">
+                  <img src="assets/imgs/nacidade.jpg"/>
+                  <span class="title">App NaCidade</span>
+                  <a href="#">Saiba mais</a>
+                </div>
+              </div>
+
+              <div class="col x3 s13 m3 l3">
+                <div class="box-solucoes camara">
+                  <img src="assets/imgs/nacamara.jpg"/>
+                  <span class="title">Câmara Online</span>
+                  <a href="#">Saiba mais</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="arborizacao" class="modal modal-fixed-footer">
+        <div class="modal-content">
+          <div class="row">
+            <div class="col x12 s12 m12 l12">
+              <h4>SMART CTM - Sistema de Gestão do Cadastro Técnico Multifinalitário</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col x12 s12 m12 l12">
+              <div class="icone-solucao">
+                <img src="assets/imgs/arborizacao.png"/>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col x12 s12 m12 l12">
+              <p>
+                É um módulo da plataforma <span>Maptriz Smart City</span> que confere inteligência aos processos, permitindo geração de informações interligadas em diversas áreas do setor público, o que possibilita desde a tomada de decisão imediata e assertiva até análises e construções para cenários e decisões estratégicas. Desenvolvido seguindo os padrões de interoperabilidade pelo OGC Open Geospatial Consortium e governo eletrônico ePING e-gov.</p>
+              <br>
+              <p>
+                O <span>Smart Arborização</span> foi desenvolvido com sistema de inteligência geográfica permite o cadastramento e recadastramento com registros de informações diversas (espécie, idade, histórico fitossanitário, datas de podas, etc), para geração de relatórios que irão subsidiar a coordenação de ações (erradicação, poda, controle de doenças, pontos de plantio, definição de espécies adequadas para plantio, entre outras).</p>
+              <br>
+              <p>
+                É uma Ferramenta eficiente para a coordenação e monitoramento de equipes em campo, diagnóstico, interatividade do cidadão para solicitação de serviços, como poda. O sistema também gera relatório com informações para elaboração de Plano de Arborização Urbana.
+              </p>
+              <br>
+              <p>Principais benefícios:</p>
+              <br>
+              <ul>
+                <li>Redução de custo com reestruturação e automatização dos processos;</li>
+                <li>Sustentabilidade ambiental – funciona por meio de aplicativo móvel, eliminando o uso de papéis;</li>
+                <li>Otimização da mão de obra – promovida pelo sistema de geolocalização móvel integrado com a plataforma que monitora e gerencia as atividades da equipe em campo;</li>
+                <li>Maior produtividade das equipes em campo – relatórios com dados precisos e eficientes para análise de produtividade do trabalho em campo;</li>
+                <li>Maior assertividade na tomada de decisões – relatórios com conjunto de informações refinadas para subsidiar tomada de decisão;</li>
+                <li>Elaboração de relatórios para Planos de Arborização Urbana;</li>
+                <li>Transparência e agilidade na interação com a sociedade - solicitação de serviços, feito pelo cidadão por meio de aplicativo.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fechar</a>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="noticias">
+      <div class="container">
+        <div class="row">
+          <div class="col x12 s12 m12 l12">
+            <h3>Notícias</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col x6 s6 m6 l6">
+            <a href="file:///C:/Users/Kananda/Documents/site/noticia/index.html">
+              <div class="row noticia">
+                <div class="col x2 s2 m2 l2">
+                  <div class="data">
+                    <span class="dia">02</span>
+                    <span class="mes">Fev</span>
+                  </div>
+                </div>
+                <div class="col x10 s10 m10 l10">
+                  <p class="titulo">Câmara online, a nova solução da maptriz para cidades...</p>
+                  <span class="resumo">O contato do vereador com o morador ficou instantâneo, transparente, sem burocratização. A Maptriz, empresa da DRZ...</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="row noticia">
+                <div class="col x2 s2 m2 l2">
+                  <div class="data">
+                    <span class="dia">28</span>
+                    <span class="mes">Jan</span>
+                  </div>
+                </div>
+                <div class="col x10 s10 m10 l10">
+                  <p class="titulo">Estamos entre as ações de inteligência para tornar...</p>
+                  <span class="resumo">A pretensão londrinense de se tornar uma smart city tem sido trabalhada em duas frentes: uma de planejamento...</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="row noticia">
+                <div class="col x2 s2 m2 l2">
+                  <div class="data">
+                    <span class="dia">01</span>
+                    <span class="mes">Fev</span>
+                  </div>
+                </div>
+                <div class="col x10 s10 m10 l10">
+                  <p class="titulo">Maptriz participa de projeto da ABDI e Inmetro</p>
+                  <span class="resumo">A Maptriz e a DRZ estão participando do projeto Ambiente de Demonstração de Tecnologias para Cidades Inteligentes...</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="row noticia">
+                <div class="col x2 s2 m2 l2">
+                  <div class="data">
+                    <span class="dia">28</span>
+                    <span class="mes">Jan</span>
+                  </div>
+                </div>
+                <div class="col x10 s10 m10 l10">
+                  <p class="titulo">Estamos entre as ações de inteligência para tornar...</p>
+                  <span class="resumo">A pretensão londrinense de se tornar uma smart city tem sido trabalhada em duas frentes: uma de planejamento...</span>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col x6 s6 m6 l6">
+            <a href="#">
+              <div class="row noticia">
+                <div class="col x2 s2 m2 l2">
+                  <div class="data">
+                    <span class="dia">20</span>
+                    <span class="mes">Jan</span>
+                  </div>
+                </div>
+                <div class="col x10 s10 m10 l10">
+                  <p class="titulo">Câmara online, a nova solução da maptriz para cidades...</p>
+                  <span class="resumo">O contato do vereador com o morador ficou instantâneo, transparente, sem burocratização. A Maptriz, empresa da DRZ...</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="row noticia">
+                <div class="col x2 s2 m2 l2">
+                  <div class="data">
+                    <span class="dia">01</span>
+                    <span class="mes">Jan</span>
+                  </div>
+                </div>
+                <div class="col x10 s10 m10 l10">
+                  <p class="titulo">Maptriz participa de projeto da ABDI e Inmetro</p>
+                  <span class="resumo">A Maptriz e a DRZ estão participando do projeto Ambiente de Demonstração de Tecnologias para Cidades Inteligentes...</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="row noticia">
+                <div class="col x2 s2 m2 l2">
+                  <div class="data">
+                    <span class="dia">22</span>
+                    <span class="mes">Dez</span>
+                  </div>
+                </div>
+                <div class="col x10 s10 m10 l10">
+                  <p class="titulo">Câmara online, a nova solução da maptriz para cidades...</p>
+                  <span class="resumo">O contato do vereador com o morador ficou instantâneo, transparente, sem burocratização. A Maptriz, empresa da DRZ...</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="row noticia">
+                <div class="col x2 s2 m2 l2">
+                  <div class="data">
+                    <span class="dia">21</span>
+                    <span class="mes">Dez</span>
+                  </div>
+                </div>
+                <div class="col x10 s10 m10 l10">
+                  <p class="titulo">Estamos entre as ações de inteligência para tornar...</p>
+                  <span class="resumo">A pretensão londrinense de se tornar uma smart city tem sido trabalhada em duas frentes: uma de planejamento...</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col x12 l12 s12 m12">
+            <a href="#" class="btn btn-noticias">
+              Ver todas as notícias
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="clientes">
+      <div class="container">
+        <div class="row">
+          <div class="col x12 s12 m12 l12">
+            <h3>Nossos Clientes</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col x12 m12 l12 s12">
+            <p class="sub">Conheça alguns de nossos clientes e sobre suas experiências com as soluções inovadoras da Maptriz.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col x12 s12 m12 l12">
+            <div class="carousel carousel-slider">
+              <a class="carousel-item" href="#one!">
+                <div class="row">
+                  <div class="col x12 s12 m12 l12">
+                    <h4>"[...] Lorem ipsum dolor sit amet..."</h4>
+                    <span>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in augue tempor, rutrum felis vel, euismod libero. Fusce quis sollicitudin augue, vitae interdum libero. Curabitur odio arcu, euismod sed tempor ullamcorper, bibendum at tortor. Pellentesque in viverra erat. Proin semper lobortis mauris at faucibus. Vivamus blandit metus sed arcu porta, ac egestas nisi vehicula. Maecenas porta, ante vitae dictum porta, lacus magna consequat turpis, sed molestie dolor diam nec dui. Pellentesque posuere augue id semper laoreet. Suspendisse venenatis elit ipsum, et gravida nisl iaculis eget."</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col x12 s12 m12 l12">
+                    <p class="autor">João da Silva, Prefeito de Toledo.</p>
+                  </div>
+                </div>
+              </a>
+
+              <div class="carousel carousel-slider">
+                <a class="carousel-item" href="#two!">
+                  <div class="row">
+                    <div class="col x12 s12 m12 l12">
+                      <h4>"[...] Lorem ipsum dolor sit amet..."</h4>
+                      <span>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in augue tempor, rutrum felis vel, euismod libero. Fusce quis sollicitudin augue, vitae interdum libero. Curabitur odio arcu, euismod sed tempor ullamcorper, bibendum at tortor. Pellentesque in viverra erat. Proin semper lobortis mauris at faucibus. Vivamus blandit metus sed arcu porta, ac egestas nisi vehicula. Maecenas porta, ante vitae dictum porta, lacus magna consequat turpis, sed molestie dolor diam nec dui. Pellentesque posuere augue id semper laoreet. Suspendisse venenatis elit ipsum, et gravida nisl iaculis eget."</span>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col x12 s12 m12 l12">
+                      <p class="autor">José de Almeida, Diretor de TI.</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre-nos">
+      <div class="container">
+        <div class="row">
+          <div class="col x12 s12 m12 l12">
+            <div class="row m-b-0">
+              <div class="col x12 s12 m12 l12">
+                <span class="subhead">Quem Somos</span>
+                <h4>NÓS SOMOS A MAPTRIZ</h4>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col x3 s3 l3 m3">
+                <div class="icone">
+                  <img src="assets/imgs/tecnologia.png" />
+                </div>
+                <span>Tecnologia</span>
+                <p class="apoio">Soluções tecnológicas</p>
+              </div>
+              <div class="col x3 s3 l3 m3">
+                <div class="icone">
+                  <img src="assets/imgs/criatividade.png" />
+                </div>
+                <span>Eficiência</span>
+                <p class="apoio">Gestão inteligente e eficiente</p>
+              </div>
+              <div class="col x3 s3 l3 m3">
+                <div class="icone">
+                  <img src="assets/imgs/sustentabilidade.png" />
+                </div>
+                <span>Sustentabilidade</span>
+                <p class="apoio">Cidades criativas e sustentáveis</p>
+              </div>
+              <div class="col x3 s3 l3 m3">
+                <div class="icone">
+                  <img src="assets/imgs/otimizacao.png" />
+                </div>
+                <span>Otimização</span>
+                <p class="apoio">Controle e otimização de serviços</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col x12 s12 m12 l12">
+                <p class="quem-somos">Trabalhamos com o conceito de Smart City, em que Tecnologias da Informação e Comunicação (TICs) são utilizadas para estabelecer uma rede integrada de funcionamento da sociedade. Em uma cidade confortável, criativa, sustentável, inteligente, as tecnologias estão a serviço do planejamento urbano, otimização de recursos financeiros, gestão eficiente de recursos naturais e energéticos. Tudo isso para resultar em crescimento econômico sustentável e melhora da qualidade de vida das pessoas.
+                  <br>
+                  <br>
+                  A Maptriz traz as soluções adequadas à realidade de cada cliente, aliando <span>sustentabilidade</span>, <span>organização</span>, <span>gestão</span> e <span>conectividade</span>.</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <div class="container">
+        <div class="row">
+          <div class="col x12 s12 m12 l12">
+            <h3>Entre em contato <span>conosco</span></h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col x12 s12 m12 l12">
+            <div class="box">
+              <div class="row m-b-0">
+                <div class="col x8 s8 m8 l8">
+                  <h4>Endereço</h4>
+                  <div class="row m-b-0">
+                    <div class="col x6 s6 m6 l6">
+                      <p>Avenida Higienopólis, 32</p>
+                      <p>14o. andar - Sala 1401</p>
+                      <p>86020-080 - Londrina - PR </p>
+                    </div>
+                    <div class="col x6 s6 m6 l6">
+                      <p><i class="material-icons">local_phone</i>(43) 3026-4065 </p>
+                      <p><i class="material-icons">mail</i>contato@maptriz.com.br</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col x4 s4 m4 l4 text-center">
+                  <i class="material-icons location">location_on</i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col x12 s12 m12 l12">
+            <div class="row">
+              <div class="col x8 s8 m8 l8">
+                <div class="row">
+                  <div class="col x6 s6 m6 l6">
+                    <input type="text" id="name" class="validate" placeholder="  Nome" />
+                  </div>
+                  <div class="col x6 s6 m6 l6">
+                    <input type="email" id="email" class="validate" placeholder="  E-mail" />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col x12 s12 m12 l12">
+                    <input type="text" id="assunto" class="validate" placeholder="  Assunto" />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col x12 s12 m12 l12">
+                    <textarea id="mensagem" class="materialize-textarea" placeholder="  Mensagem" rows="2"></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col x12 s12 m12 l12">
+                    <button type="submit" class="btn-primary float-right" id="submit">Enviar</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col x4 s4 m4 l4">
+                <a href="https://www.google.com/maps/place/DRZ+Geotecnologia+e+Consultoria/@-23.3099904,-51.1658525,15z/data=!4m5!3m4!1s0x0:0x89ad989c99e5a9f0!8m2!3d-23.3099904!4d-51.1658525" target="_blank">
+                  <img src="assets/imgs/mapa.png" />
+                </a>
+                <div class="social">
+                  <a href="https://www.facebook.com/maptriz" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                  <a href="mailto:contato@maptriz.com.br">
+                    <i class="fas fa-at"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/maptriz/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </div>
+</body>
+</html>
